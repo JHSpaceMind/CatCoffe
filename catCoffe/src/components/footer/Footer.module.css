@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .containerFooter{
+    justify-content:flex-end;
+    align-items: end;
+    background-color:#FFB4B4;
+    color: white;
+  }

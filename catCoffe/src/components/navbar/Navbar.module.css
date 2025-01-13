@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .containerPrincipal {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .navbarContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFB4B4;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; 
+  }
+  .logoImage {
+    width: 6.5rem;
+    height: 6.4rem;
+  }
+  .iconsWrapper {
+    display: flex;
+    gap: 0.1rem; 
+    align-items: center;
+  }
+  .carrinhoImage {
+    width: 3.9rem;
+    height: 3.9rem;
+  }
+  .sinoImage {
+    width: 3rem;
+    height: 3rem;
+  }
+  .profileImage {
+    width: 3.2rem;
+    height: 3rem;
+  }
+  .menuImage {
+    width: 3rem;
+    height: 3rem;
+  }
+  
