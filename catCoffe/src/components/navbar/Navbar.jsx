@@ -1,28 +1,20 @@
 import React from 'react';
-import logoPrincipal from '../../assets/logo/icons/logoPrincipal.png';
-import carrinho from '../../assets/logo/icons/carrinhoc.png';
-import sino from '../../assets/logo/icons/sinoc.png';
-import profile from '../../assets/logo/icons/profilec.png';
-import menu from '../../assets/logo/icons/menuc.png';
 import styles from './Navbar.module.css';
+import logo from '../../assets/logo/catcoffelogo.png';
 
 export function Navbar() {
   return (
-    <div className={styles.containerPrincipal}>
-      <div className={styles.navbarContainer}>
-        <img
-          src={logoPrincipal}
-          alt="LogoPrincipal"
-          className={styles.logoImage}
-        />
-        <div className={styles.iconsWrapper}>
-          <img src={carrinho} alt="IconCarrinho" className={styles.carrinhoImage} />
-          <img src={sino} alt="IconSino" className={styles.sinoImage} />
-          <img src={profile} alt="IconProfile" className={styles.profileImage} />
-          <img src={menu} alt="IconMenu" className={styles.menuImage} />
-        </div>
+    <nav className={styles.containernavbar}>
+      <div className={styles.logoContainer}>
+        <h2 className={styles.logo}>CATCOFFE</h2>
+        <img src={logo} alt="Catcoffe logo do site" className={styles.logoImage} />
       </div>
-    </div>
+      <ul className={styles.navlinks}>
+        <li><a href="#">PRODUTOS</a></li>
+        <li><a href="#">PETS</a></li>
+        <li><a href="#">SOBRE</a></li>
+      </ul>
+    </nav>
   );
 }
 

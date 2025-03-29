@@ -3,9 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .containerFooter{
-    justify-content:flex-end;
-    align-items: end;
-    background-color:#FFB4B4;
-    color: white;
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
   }
+  
